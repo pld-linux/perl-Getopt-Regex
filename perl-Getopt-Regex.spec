@@ -28,7 +28,7 @@ elastyczny, z u¿yciem wyra¿eñ regularnych.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
