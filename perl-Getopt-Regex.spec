@@ -4,8 +4,8 @@
 Summary:	Getopt::Regex perl module
 Summary(pl):	Modu³ perla Getopt::Regex
 Name:		perl-Getopt-Regex
-Version:	0.02
-Release:	8
+Version:	0.03
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
