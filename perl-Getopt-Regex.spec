@@ -26,7 +26,7 @@ elastyczny, z u¿yciem wyra¿eñ regularnych.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
