@@ -3,7 +3,7 @@ Summary:	Getopt-Regex perl module
 Summary(pl):	Modu³ perla Getopt-Regex
 Name:		perl-Getopt-Regex
 Version:	0.02
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
