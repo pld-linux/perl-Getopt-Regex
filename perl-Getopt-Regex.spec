@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Getopt
 %define	pnam	Regex
-Summary:	Getopt-Regex perl module
-Summary(pl):	Modu³ perla Getopt-Regex
+Summary:	Getopt::Regex perl module
+Summary(pl):	Modu³ perla Getopt::Regex
 Name:		perl-Getopt-Regex
 Version:	0.02
 Release:	8
@@ -15,11 +15,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Getopt-Regex - handle command line options flexibly using regular
+Getopt::Regex - handle command line options flexibly using regular
 expressions.
 
 %description -l pl
-Modu³ perla Getopt-Regex.
+Modu³ perla Getopt::Regex.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
