@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Getopt
 %define	pnam	Regex
-%include	/usr/lib/rpm/macros.perl
 Summary:	Getopt-Regex perl module
 Summary(pl):	Modu³ perla Getopt-Regex
 Name:		perl-Getopt-Regex
 Version:	0.02
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ expressions.
 Modu³ perla Getopt-Regex.
 
 %prep
-%setup -q -n Getopt-Regex-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
