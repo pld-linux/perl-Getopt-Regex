@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Getopt
-%define	pnam	Regex
+%define		pdir	Getopt
+%define		pnam	Regex
 Summary:	Getopt::Regex - handle command line options flexibly using regular expressions
 Summary(pl):	Getopt::Regex - elastyczna obs³uga opcji z linii poleceñ przy pomocy wyra¿eñ regularnych
 Name:		perl-Getopt-Regex
