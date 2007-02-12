@@ -2,7 +2,7 @@
 %define		pdir	Getopt
 %define		pnam	Regex
 Summary:	Getopt::Regex - handle command line options flexibly using regular expressions
-Summary(pl):	Getopt::Regex - elastyczna obs³uga opcji z linii poleceñ przy pomocy wyra¿eñ regularnych
+Summary(pl.UTF-8):   Getopt::Regex - elastyczna obsÅ‚uga opcji z linii poleceÅ„ przy pomocy wyraÅ¼eÅ„ regularnych
 Name:		perl-Getopt-Regex
 Version:	0.03
 Release:	3
@@ -23,12 +23,12 @@ namespace or, currently, inforce any particular standard for the
 options - the user can do this if they want.  By using anonymous
 closures sophisticated option specifications can be constructed.
 
-%description -l pl
-Modu³ Perla Getopt::Regex udostêpnia elastyczn± i prost± metodê
-obs³ugi opcji z linii poleceñ. On nie znakuje przestrzeni nazw
-wywo³uj±cego, ani, jak dot±d, nie wymusza ¿adnego konkretnego
-standardu odno¶nie opcji - u¿ytkownicy mog± to zrobiæ sami, je¶li
-chc±. Korzystaj±c z anonimowych zamkniêæ, mo¿na tworzyæ wyszukane
+%description -l pl.UTF-8
+ModuÅ‚ Perla Getopt::Regex udostÄ™pnia elastycznÄ… i prostÄ… metodÄ™
+obsÅ‚ugi opcji z linii poleceÅ„. On nie znakuje przestrzeni nazw
+wywoÅ‚ujÄ…cego, ani, jak dotÄ…d, nie wymusza Å¼adnego konkretnego
+standardu odnoÅ›nie opcji - uÅ¼ytkownicy mogÄ… to zrobiÄ‡ sami, jeÅ›li
+chcÄ…. KorzystajÄ…c z anonimowych zamkniÄ™Ä‡, moÅ¼na tworzyÄ‡ wyszukane
 specyfikacje dla opcji.
 
 %prep
