@@ -2,7 +2,7 @@
 %define		pdir	Getopt
 %define		pnam	Regex
 Summary:	Getopt::Regex - handle command line options flexibly using regular expressions
-Summary(pl.UTF-8):   Getopt::Regex - elastyczna obsługa opcji z linii poleceń przy pomocy wyrażeń regularnych
+Summary(pl.UTF-8):	Getopt::Regex - elastyczna obsługa opcji z linii poleceń przy pomocy wyrażeń regularnych
 Name:		perl-Getopt-Regex
 Version:	0.03
 Release:	3
