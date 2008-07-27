@@ -5,7 +5,7 @@ Summary:	Getopt::Regex - handle command line options flexibly using regular expr
 Summary(pl.UTF-8):	Getopt::Regex - elastyczna obsługa opcji z linii poleceń przy pomocy wyrażeń regularnych
 Name:		perl-Getopt-Regex
 Version:	0.03
-Release:	3
+Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
