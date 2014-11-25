@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Getopt
 %define		pnam	Regex
+%include	/usr/lib/rpm/macros.perl
 Summary:	Getopt::Regex - handle command line options flexibly using regular expressions
 Summary(pl.UTF-8):	Getopt::Regex - elastyczna obsługa opcji z linii poleceń przy pomocy wyrażeń regularnych
 Name:		perl-Getopt-Regex
@@ -11,6 +11,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	44054a9d96b88da3b9774ec95dac70c9
+URL:		http://search.cpan.org/dist/Getopt-Regex/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -18,9 +19,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Getopt::Regex Perl module provides a flexible yet simple method for
-handling command line options.  It does not stamp over the callers
+handling command line options. It does not stamp over the callers
 namespace or, currently, inforce any particular standard for the
-options - the user can do this if they want.  By using anonymous
+options - the user can do this if they want. By using anonymous
 closures sophisticated option specifications can be constructed.
 
 %description -l pl.UTF-8
